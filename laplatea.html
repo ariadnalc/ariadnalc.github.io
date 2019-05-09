@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><!--Carácteres especiales-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Primer paso para responsive, que se adapte a la escala del dispositivo-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <title>Ariadna</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <header class="header1">
+        <div class="wrapper-nav">
+            <nav class="nav">
+                <a class="logo linkmenu" href="index.html">A</a>
+                <ul class="nav_list">
+                    <li><a class="linkmenu linkspace" href="#projects">Projects</a></li> 
+                    <li><a class="linkmenu linkspace" href="#about">About</a></li> 
+                    <li><a class="linkmenu linkspace" href="mailto:hello@ariadnalopez.com">Let's talk</a></li> 
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero abovefold hero--split">
+            <div class="wrapper split">
+                <div>
+                    <h1 class="project-title">La Platea –<br>
+                    Bringing theatre<br>
+                    closer to young people</h1>
+                </div>
+                <div class="wrapper-projects project-data-general">
+                    <p class="littletitle">overview</p>
+                    <p class="parrafo__small reader white">For the digital experience design master’s thesis our team was in charge of designing 
+                        an experience to people who consume or want to consume theatre. I worked alongside Ricardo Sánchez and Stephany Bernstein 
+                        to create and develop La Platea, a web app to make easier and faster the process of searching and purchasing theater tickets 
+                        in Barcelona. We develop the project following the Scrum-kanban Agile methodology.
+                    </p> 
+                </div>
+                <div class="wrapper-projects project-data"> 
+                    <div class="column">
+                        <div>
+                            <p class="littletitle">role</p>
+                            <p class="parrafo__small reader white">Product Designer</p>
+                        </div>
+                        <div>
+                            <p class="littletitle">timeframe</p>
+                            <p class="parrafo__small reader white">28 weeks</p>
+                        </div>
+                    </div>
+                    <div class="column">  
+                        <div>
+                            <p class="littletitle">type of project</p>
+                            <p class="parrafo__small reader white">Master's thesis</p>
+                        </div>
+                        <div>
+                            <p class="littletitle">delivery</p>
+                            <p class="parrafo__small reader white">Concept, web-app prototype</p>
+                        </div>
+                    <div>
+                </div>
+            </div>
+            
+        </section>
+        <section>
+                <div id="projects" class="wrapper wrapper-projects">
+                    <h2 class="seccion">Design Process</h2>
+                </div>
+                    <img class="image__center" src="img/designprocess.svg" alt="design process" width="1200px">
+                <div class="wrapper wrapper-projects">
+                    <h2 class="seccion">Research</h2>
+                    <h3 class="seccion__sub">Market Analysis</h3>
+                    <p class="parrafo reader">We started doing a deep research analysis of the theatre market in Barcelona. 
+                        These are the results we found:
+                    </p>
+                </div>
+                    <img class="image__center" src="img/theatre.svg" alt="theatres in Barcelona" width="600px">
+                <div class="wrapper wrapper-imgfooter">   
+                    <p class="photo">Data acquired from ADETCA (Empreses de teatre de Catalunya)</p>
+                </div>
+                <div class="wrapper wrapper-projects">
+                    <p class="parrafo reader">There was something we could do about the occupancy of the theaters. 
+                        Barcelona is a big and cultural city with a wide range of performances, being highly valued by spectators. 
+                        Despite the high advertisements and the discounts offered, the occupation of the theatres is only of 56%.
+                    </p>
+                    <h3 class="seccion__sub seccion__new">User interviews</h3>
+                    <p class="parrafo reader">To understand the low occupancy of the theaters, we did <span class="parrafo__bold">surveys</span> to people from different 
+                        backgrounds and ages to know why and how often they go to the theatre. We discovered that <span class="parrafo__bold">most people only go to 
+                        theatre between 1 or 2 times a year</span> and the reasons are due to the <span class="parrafo__bold">high prices</span> or because they 
+                        <span class="parrafo__bold">struggle to find something interesting</span> to see.
+                    </p>
+                    <p class="parrafo reader">We decided to focus on a young audience (between 25 and 35 y/o) who despite having the means to go and they want to, they usually don’t go.</p>
+                    <p class="parrafo reader">
+                        To discover our users pain-points and social habits, we interviewed 25 people from different backgrounds. We focused the questions on the next points:
+                        <ol class="parrafo reader indent">
+                            <li>1. <span class="parrafo__bold">Reasons why</span> they go to the theatre</li>
+                            <li>2. <span class="parrafo__bold">Frustrations</span> of their experience</li>
+                            <li>3. The <span class="parrafo__bold">process</span> from the awareness until leaving the theater</li>
+                        </ol>   
+                    </p>
+                    <h2 class="seccion">Building empathy</h2>
+                    <h3 class="seccion__sub">Personas</h3>
+                    <p class="parrafo reader">Following our user interviews, we built three personas depending on the needs that move them:</p>
+                </div>
+                    <img class="image__center personas" src="img/personas.png" alt="Our user personas" width="1000px">
+                <div class="wrapper wrapper-projects">
+                    <p class="parrafo reader">We decided to prioritize <span class="parrafo__bold">Anna</span> because is the one who 
+                    <span class="parrafo__bold">we can help more to improve her theatre experience</span> and was the more common archetype in our interviews.</p>
+                    <p class="parrafo reader">Alex is very familiar with the theatre world, the only pain-point he has is the registration and payment, he would like to
+                        haver an easier and faster experience.
+                    </p> 
+                    <p class="parrafo reader">Laura adapts herself to another person, she wants to go to theatre because a friend or a relative propose to her to go.</p>        
+                    <p class="parrafo reader">So, we focalize our empathy process on Anna.</p>
+                </div>
+                <div class="badge">
+                    <div class="chat1">
+                        <img src="img/girl.png" alt="hi!" width="80px">
+                    </div>
+                    <div class="chat2">
+                        <img src="img/chat1.png" alt="at that point, how are you doing? 
+                        Please, take a second to breathe. I know the research process may be a bit intense." width="400px">
+                        <img class="roundcorner" src="img/breathe.gif" alt="hi!" width="300px">
+                        <img src="img/chat2.png" alt="I promise it will take inly one more minute." width="400px">
+                    </div>    
+                </div>
+                <div class="wrapper wrapper-projects">
+                    <h3 class="seccion__sub seccion__new">Our primary persona</h3>
+                    <p class="parrafo reader">So, I introduce you Anna and her Journey Map, from where we could find the insights that helped us to build our product.</p>
+                </div>
+                    <img class="image__center" src="img/primary persona.png" alt="Anna, our primary persona" width="800px">   
+                <div class="wrapper wrapper-projects">
+                    <h3 class="seccion__sub seccion__new">User Journey Map</h3>
+                </div>
+                    <a href="img/journey map background.png" target="_blank" rel="noopener noreferer">
+                        <img class="image__center image__margin" src="img/journey map.png" alt="Anna's Journey Map" width="1200px"> 
+                    </a>
+                <div class="wrapper wrapper-projects">
+                    <h3 class="seccion__sub seccion__new">Pain-Points and improvement opportunities</h3>
+                    <p class="parrafo reader">Based on the insights from our User Interviews, represented in the User Journey Map we extracted the main pain points:</p>
+                    <p class="parrafo reader parrafo__bold"><span class="insight">Insight #1  –</span>  Our personas are not aware about new shows and opportunities.</p>
+                    <p class="parrafo reader parrafo__bold"><span class="insight">Insight #2  –</span>  Our personas don’t know a site with all the theatre offer (and they would like it exists) to save time searching for a show.</p>
+                    <p class="parrafo reader parrafo__bold"><span class="insight">Insight #3  –</span>  Our personas lack information and sometimes they get disappointed because they don’t see what they expected.</p>
+                </div>
+                <div class="wrapper wrapper-projects quote">
+                    <p class="parrafo reader quote__text"><img class="image__center" src="img/quotes.svg" alt="quotes" width="30px" style="margin-bottom: 5px">"What I hate the most is when I pay for something I don’t enjoy. 
+                                Sometimes I feel I go “blindly” to the theatre and I don’t like to go to see a show without knowing what I am going to see." </p>
+                </div>
+                <div class="wrapper wrapper-projects">
+                    <p class="parrafo reader parrafo__bold"><span class="insight">Insight #4  –</span>  Our personas percieve theatre as something expensive, they search for discounts.</p>
+                    <p class="parrafo reader seccion__new">We exctracted also opportunities to improve their experience:</p>
+                    <p class="parrafo reader parrafo__bold"><span class="insight">Op #1  –</span>  Our personas decide based on reviews but they don’t rate the shows.</p>
+                    <p class="parrafo reader parrafo__bold"><span class="insight">Op #2  –</span>  Our personas say the register process is lenghtly and boring.</p>
+                    <p class="parrafo reader parrafo__bold"><span class="insight">Op #3  –</span>  Despite our personas use their calendar to remember the day of the show, they would like to have a reminder.</p>
+                    <p class="parrafo reader seccion__new">So, let's start with the solutions!</p>
+                </div>
+                    <img class="image__center roundcorner" src="img/minions.gif" alt="Let's start with the solutions" width="500px">     
+                <div class="wrapper wrapper-projects">
+                    <h2 class="seccion">Defining our project</h2>
+                    <h3 class="seccion__sub">Goal</h3>
+                    <p class="parrafo reader">The goal of our product is to provide a modern way to search and purchase theatre shows in Barcelona that:
+                    </p>
+                 </div>        
+                    <img class="image__center" src="img/Goals.svg" alt="Goal 1: Makes easier and faster the search and purchase process / Goal 2: Prioritizes billboard discounts and provides redeemable points / Goal 3: Has updated reviews, making easy and pleasant to make one / Goal 4: Suggests restaurants and bars close to the theatre to complement 
+                    the experience" width="500px">
+                <div class="wrapper wrapper-projects">
+                    <h3 class="seccion__sub seccion__new">Design Principles</h3>
+                    <p class="parrafo reader">We wrote a set of good practices to build a useful and valuable product and we kept those in mind during the next phases of design and development.
+                    </p>
+                </div>  
+                    <img class="image__center" src="img/design principles.svg" alt="Design principles: Content First / Mobile First / User-centered Design" width="500px">    
+                <div class="wrapper wrapper-projects">
+                    <h2 class="seccion">Creating User Stories</h2>
+                    <h3 class="seccion__sub">User stories</h3>
+                    <p class="parrafo reader">In order to follow an agile methodology we built the backlog and we divided it into four sprints. 
+                        We scheduled the main functionalities of our project prioritizing to launch the MVP after the first sprint.
+                    </p>
+                    <p class="parrafo reader parrafo__sub">*This functionalities has been iterated depending on the insights of the research and the results of the testing.</p>
+                </div> 
+                    <img class="image__center" src="img/sprints.svg" alt="Scheduling the functionalities" width="900px">
+                <div class="wrapper wrapper-projects">
+                        <h2 class="seccion">Ideation</h2>
+                        <h3 class="seccion__sub">Design Sprint</h3>
+                        <p class="parrafo reader">We kiked-off the project doing a 3 days Design Sprint to solve one of our core functionalities: the searching process. 
+                            That was very useful to start developing our product and validate fast the design through prototyping and testing with users.<br>
+                        </p>
+                        <p class="parrafo reader">That was our schedule:</p>          
+                </div> 
+                    <img class="image__center" src="img/Design Sprint.png" alt="Design Sprint Days" width="800px">
+                <div class="wrapper wrapper-projects">
+                        <h4 class="seccion__sub__sub seccion__new">Learnings</h4>
+                        <p class="parrafo reader"><span class="parrafo__bold">Learn fast, fail fast.</span>
+                            The sprint helps to obtain a clear vision of the goals upfront. 
+                            It forces you to make critical decisions and solve complex problems fast.
+                        </p>
+                </div>
+                <div class="wrapper wrapper-projects">
+                        <h2 class="seccion">Building the idea (UX)</h2>
+                        <h3 class="seccion__sub">Hi-Fi Wireframes</h3>
+                </div>
+                    <img class="image__center" src="img/wireframes.png" alt="Wireframes" width="1000px" style="margin-top:30px; margin-bottom:60px">        
+        </section>
+        <section class="gradient">
+                <div class="wrapper wrapper-projects">
+                        <h2 class="seccion gold line">Implementing UI</h2>
+                        <h3 class="seccion__sub gold">Visual Language</h3>
+                        <p class="parrafo reader white">We decided to use Montserrat as the main font-family, given its good legibility for body size but also warm and original character when used as titles.
+                        </p>
+                        <p class="parrafo reader white">For the colors, we wanted to transmit this magic and fantasy of the theatre as well as it’s tradition and elegancy. 
+                            That’s why we combined the purple with the blue, two elegant and nighty colors. We complement this two dominant colors with a carefree pink for UI elements (CTA) 
+                            and an elegant gold to transmit this traditional and luxurious feel. </p>               
+                </div>
+                <div class="wrapper wrapper-projects">
+                        <h3 class="seccion__sub seccion__new gold">Final design and flows</h3>
+                </div>
+                    <img class="image__center img_UI" src="img/UI.png" alt="Wireframes">
+                <div class="wrapper wrapper-projects wrapper-projects-videos">
+                    <div class="image__left">
+                            <img src="img/onboarding.png" alt="Onboarding process" width="350px">
+                    </div>
+                    <div class="wrapper-videos">
+                        <h3 class="parrafo reader white__title seccion__sub">Onboarding</h3>
+                        <p class="parrafo reader white">Introducing La Platea to the user for the first time</p>
+                    </div>
+                </div>
+                <div class="wrapper wrapper-projects wrapper-projects-videos-reverse">
+                    <div class="image__right">
+                            <img src="img/onboarding.png" alt="Searching process" width="350px">
+                    </div>
+                    <div class="wrapper-videos">
+                        <h3 class="parrafo reader white__title seccion__sub__sub">Scenario 1</h3>
+                        <h4 class="parrafo reader white__title seccion__sub">Search Process</h4>
+                        <p class="parrafo reader white">When the user knows what s/he wants to see. The user can search a show by name or theatre.</p>
+                    </div>
+                </div>
+                <div class="wrapper wrapper-projects wrapper-projects-videos">
+                    <div class="image__left">
+                            <img src="img/onboarding.png" alt="Filtering process" width="350px">
+                    </div>
+                    <div class="wrapper-videos">
+                        <h3 class="parrafo reader white__title seccion__sub__sub">Scenario 2</h3>
+                        <h4 class="parrafo reader white__title seccion__sub">Filtering Process</h4>
+                        <p class="parrafo reader white">When the user doesn’t know what is looking for. S/he can use the filters to easy find a show of its preferences.</p>
+                    </div>
+                </div>
+                <div class="wrapper wrapper-projects wrapper-projects-videos-reverse wrapper-projects-final">
+                    <div class="image__right">
+                        <img src="img/onboarding.png" alt="Search process" width="350px">
+                    </div>
+                    <div class="wrapper-videos">
+                        <h3 class="parrafo reader white__title seccion__sub">Purchasing the show</h3>
+                        <p class="parrafo reader white">Optimization of the purchasing process using CRO (Conversion Rate Optimization) best practices, always having the cognitive facility of the user in mind.</p>
+                    </div>
+                </div>          
+        </section>
+        <section>
+                <div class="wrapper wrapper-projects">
+                        <h2 class="seccion">In retrospect</h2>
+                        <p class="parrafo reader">As my first agile project it has been very challenging.  It was good exercise to rely on the insights of the user research to identify the main functionalities of our product. 
+                            We designed always having the user in mind and do testing for validate an idea. I learned too the importance of putting aside your biases and personal needs in building a product to create a more authentic experience for users.</p>
+                        <p class="parrafo reader">This concludes my final master’s thesis and I’m excited to challenge myself and grow in the world of UX alongside other curious and passionate minds.</p>
+                        <p class="parrafo reader">I want to thanks to my team, Ricardo and Stephanie, for all the learnings and good moments. Thanks for being awesome!</p>
+                </div>
+                <img class="image__center roundcorner" src="img/theatre.gif" alt="Let's start with the solutions" width="500px">
+                <div class="wrapper wrapper-imgfooter">
+                        <p class="photo padding__bottom">and thanks to you for reading me!</p>
+                </div>
+        </section>
+        <section class="black__background">
+                <div class="wrapper wrapper-projects">
+                        <h4 class="seccion__sub white__title about__padding"><span class="emoji" role="image" aria-label="Woman Raising Hand">🙋‍</span> Let's talk!</h4>
+                        <p class="parrafo reader white">I am always available for a chat. Let's build a better world together!</p>
+                        <ul class="buttons">
+                            <li><a class="discover-button" href="mailto:hello@ariadnalopez.com">Send me an email</a></li>
+                        </ul>
+        </section>
+        <!-- 
+        <div id="img2">
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/HoUg8hm0TlQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div> -->
+    </main>
+    <footer class="footer">
+        <nav class="wrapper-nav">
+            <ul class="social">
+                <li><a class="social" href="index.html">Dribble</a></li> 
+                <li><a class="social" href="about.html">Medium</a></li> 
+                <li><a class="social" href="contact.html">Linkedin</a></li> 
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
